@@ -1,7 +1,9 @@
+import Layout from "@/components/Layout/page"
+
 export default function AboutMe(){
     return(
-        <div>
-            <h1>About ME</h1>
-        </div>
-    )
-}
+        <Layout>
+            <h1>about me</h1>
+        </Layout>
+    );
+};
